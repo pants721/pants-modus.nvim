@@ -434,7 +434,7 @@ M.modus_vivendi = {
 ---@return ColorScheme
 function M.setup(opts)
 	opts = opts or {}
-	local config = require("modus-themes.config")
+	local config = require("pants-modus.config")
 
 	local style = config.is_light() and "modus_operandi" or "modus_vivendi"
 	local variant = config.options.variant

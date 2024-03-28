@@ -1,4 +1,4 @@
-local colors = require("modus-themes.colors").setup()
+local colors = require("pants-modus.colors").setup()
 
 local modus = {}
 

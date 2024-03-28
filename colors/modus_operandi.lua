@@ -1,1 +1,1 @@
-require("modus-themes").load({ style = "modus_operandi" })
+require("pants-modus").load({ style = "modus_operandi" })

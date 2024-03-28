@@ -1,4 +1,4 @@
-local colors = require("modus-themes.colors")
+local colors = require("pants-modus.colors")
 
 local M = {}
 --
@@ -13,7 +13,7 @@ local M = {}
 
 ---@return Theme
 function M.setup()
-	local config = require("modus-themes.config")
+	local config = require("pants-modus.config")
 	local options = config.options
 
 	---@class Theme

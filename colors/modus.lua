@@ -1,1 +1,1 @@
-require("modus-themes").load()
+require("pants-modus").load()

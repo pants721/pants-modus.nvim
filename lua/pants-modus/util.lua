@@ -1,4 +1,4 @@
-local ts = require("modus-themes.treesitter")
+local ts = require("pants-modus.treesitter")
 
 local M = {}
 
