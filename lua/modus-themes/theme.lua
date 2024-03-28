@@ -139,10 +139,10 @@ function M.setup()
 		DiagnosticHint = { fg = c.hint, bold = true }, -- Used as the base highlight group. Other Diagnostic highlights link to this by default
 		DiagnosticUnnecessary = { fg = c.fg_dim }, -- Used as the base highlight group. Other Diagnostic highlights link to this by default
 
-		DiagnosticVirtualTextError = { fg = c.error, bold = true }, -- Used for "Error" diagnostic virtual text
-		DiagnosticVirtualTextWarn = { fg = c.warning, bold = true }, -- Used for "Warning" diagnostic virtual text
-		DiagnosticVirtualTextInfo = { fg = c.info, bold = true }, -- Used for "Information" diagnostic virtual text
-		DiagnosticVirtualTextHint = { fg = c.hint, bold = true }, -- Used for "Hint" diagnostic virtual text
+		DiagnosticVirtualTextError = { fg = c.error, bg = c.bg_error, bold = true }, -- Used for "Error" diagnostic virtual text
+		DiagnosticVirtualTextWarn = { fg = c.warning, bg = c.bg_warning, bold = true }, -- Used for "Warning" diagnostic virtual text
+		DiagnosticVirtualTextInfo = { fg = c.info, bg = c.bg_info, bold = true }, -- Used for "Information" diagnostic virtual text
+		DiagnosticVirtualTextHint = { fg = c.hint, bg = c.bg_hint, bold = true }, -- Used for "Hint" diagnostic virtual text
 
 		DiagnosticUnderlineError = { undercurl = true, sp = c.error }, -- Used to underline "Error" diagnostics
 		DiagnosticUnderlineWarn = { undercurl = true, sp = c.warning }, -- Used to underline "Warning" diagnostics

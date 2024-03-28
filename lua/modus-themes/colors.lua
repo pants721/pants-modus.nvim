@@ -446,9 +446,13 @@ function M.setup(opts)
 	colors.cursor = colors.fg_main
 	colors.comment = colors.fg_dim
 	colors.error = colors.red_cooler
+    colors.bg_error = colors.bg_red_nuanced
 	colors.warning = colors.yellow_cooler
+    colors.bg_warning = colors.bg_yellow_nuanced
 	colors.info = colors.blue_cooler
+    colors.bg_info = colors.bg_blue_nuanced
 	colors.hint = colors.cyan_cooler
+    colors.bg_hint = colors.bg_cyan_nuanced
 	colors.visual = colors.bg_magenta_intense
 	colors.accent_light = colors.blue_faint
 	colors.accent = colors.blue_warmer
